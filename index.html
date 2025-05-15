@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="description"
+    content="je suis licenciée de l'école de Lyon en naturopathie, je vous propose de faire un bilan."
+  />
+  <title>Bénédicte Manin, naturopathe.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <script type="application/ld+json">
+      {
+      	"@context": "https://schema.org",
+      	"@type": "LocalBusiness",
+      	"name": "Bénédicte Manin, Naturopathe",
+      	"address": {
+      		"@type": "PostalAddress",
+      		"streetAddress": "50 Passage des Cèdres",
+      		"addressLocality": "Chonas-l'Amballan",
+      		"postalCode": "38121",
+      		"addressCountry": "FR"
+      	},
+      	"geo": {
+      		"@type": "GeoCoordinates",
+      		"latitude": 45.46115970331743
+      		"longitude": 4.817114828835488
+      	},
+      	"telephone": "33 4 28 29 43 44",
+      	"openingHoursSpecification": [
+      		{
+      			"@type": "OpeningHoursSpecification",
+      			"dayOfWeek": [
+      				"Monday",
+      				"Tuesday",
+      				"Wednesday",
+      				"Thursday",
+      				"Friday"
+      			],
+      			"opens": "10:00",
+      			"closes": "19:00"
+      		}
+      	],
+      	"image": "https://jyclave.github.io/benedicte_manin/photos/PANA8958-Portrait02-01-Flou.jpeg",
+      	"priceRange": "€€",
+      	"offers": [
+      		{
+      			"@type": "Offer",
+      			"name": "Album A4 30 pages",
+      			"price": "400.00",
+      			"priceCurrency": "EUR"
+      		},
+      		{
+      			"@type": "Offer",
+      			"name": "Retouches photo",
+      			"price": "50.00",
+      			"priceCurrency": "EUR",
+      			"description": "Prix par photo"
+      		},
+      		{
+      			"@type": "Offer",
+      			"name": "Shooting photo",
+      			"price": "350.00",
+      			"priceCurrency": "EUR",
+      			"description": "Prix par demi-journée"
+      		}
+      	]
+      }
+    </script>
+    <meta property="og:site_name" content="Bénédicte Manin Naturopathe" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://jyclave.github.io/benedicte_manin/"
+    />
+    <meta
+      property="og:title"
+      content="Bénédicte Manin Naturopathe à Chonas-l'Amballan"
+    />
+    <meta
+      property="og:description"
+      content="Naturopathe, spécialiste des fleurs de Bach, massages relaxants"
+    />
+    <meta
+      property="og:image"
+      content="https://jyclave.github.io/benedicte_manin/photos/PANA8958-Portrait02-01-Flou.jpeg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@BénéManin" />
+    <meta
+      name="twitter:title"
+      content="Bénédicte Manin Naturopathe à Chonas-l'Amballan"
+    />
+    <meta
+      name="twitter:description"
+      content="Naturopathe, spécialiste des fleurs de Bach, massages relaxants"
+    />
+    <meta
+      name="twitter:image"
+      content="https://jyclave.github.io/benedicte_manin/photos/PANA8958-Portrait02-01-Flou.jpeg"
+    />
+    <meta
+      name="twitter:url"
+      content="https://jyclave.github.io/benedicte_manin/"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <h1>Bénédicte Manin</h1>
+        <p>La Santé Naturellement</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#apropos" class="nav-items">A propos</a></li>
+          <li><a href="#naturopathie" class="nav-items">La Naturophatie</a></li>
+          <li><a href="#accompagnement" class="nav-items">Mon accompagnement</a></li>
+          <li><a href="#tarifs" class="nav-items">Prestations/Tarifs</a></li>
+          <li><a href="#contact" class="nav-items">Contactez-moi</a></li>
+        </ul>
+      </nav>
+    </header>
+    <Main>
+      <div class="hero">
+        <button class="carousel-button prev">&lt;</button>
+        <button class="carousel-button next">&gt;</button>
+        
+        <img
+          class="slide"
+          src="pictures/zen1.webp"
+          alt="nature image #1"
+          data-active
+        />
+        <img
+          class="slide"
+          src="pictures/zen2.webp"
+          alt="nature image #2" loading="lazy"
+        />
+        <img
+          class="slide"
+          src="pictures/zen3.webp"
+          alt="nature image #3" loading="lazy"
+        />
+        <img class="slide" src="pictures/zen4.webp" alt="nature image #4" loading="lazy">
+        <img class="slide" src="pictures/zen5.webp" alt="nature image #5" loading="lazy">
+        <img class="slide" src="pictures/zen6.webp" alt="nature image #6" loading="lazy">  
+        <img class="slide" src="pictures/zen7.webp" alt="nature image #7" loading="lazy">
+        <img class="slide" src="pictures/zen8.webp" alt="nature image #8" loading="lazy">
+        <img class="slide" src="pictures/zen9.webp" alt="nature image #9" loading="lazy"> 
+        <img class="slide" src="pictures/zen10.webp" alt="nature image #10" loading="lazy">                
+      </div>
+      <div class="apropos">
+        <H2 class="apropos-title" id="apropos">A propos de moi</H2>
+        <div class="apropos-container">
+          <div class="benedicte">
+            <H3 class="moi">Bénédicte Manin</H3>
+            <div class="moi-texte">
+              <p>
+                Après plusieurs années à exercer une activité professionnelle diversifiée mais pas assez épanouissante, un déséquilibre dans ma santé s’est installé. J’ai compris que notre équilibre de vie naît d’une attention globale sur tous les plans : physique, psychique, émotionnelle.
+              </p>
+              <p>
+                Dès mon enfance, j’ai naturellement appris à vivre avec le cycle des saisons et des plantes. Convaincue par les remèdes et les bienfaits naturels, la naturopathie s’est imposée à moi. Elle m’a appris à améliorer mon état de santé de façon naturelle, à me connaitre et écouter l’ensemble de mes besoins pour retrouver vitalité et harmonie.
+              </p>
+              <p>
+                Nous sommes acteurs de notre santé et notre bien-être, mais parfois le corps a besoin d’un coup de pouce et de direction.
+              </p>
+              <p>
+                Mon objectif est de vous aider à retrouver ou optimiser votre vitalité, à vous engager dans votre prévention santé et à vous reconnecter à votre propre potentiel d’autoguérison.
+              </p>
+              <p>
+                Je souhaite être à vos cotés dans votre démarche de santé et de mieux-être par un accompagnement personnalisé.
+              </p>
+              <p>
+                Je vous accueille dans un environnement chaleureux à Chonas l’Amballan (12 mn de Vienne), à Condrieu, ou en visio.
+              </p>
+            </div>           
+          </div>
+          <div>
+            <img class="bm" src="pictures/benedictemanin.webp" alt="bénédicte manin" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="container-naturopathie" id="naturopathie">
+        <h2>Naturophatie</h2>
+
+        <div class="accordion">
+          <div class="accordion-header">Qu'est-ce que c'est ?
+            <i class="fas fa-chevron-down accordion-arrow"></i>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <strong>La naturopathie</strong> 
+                    est reconnue depuis 2001 par l’OMS comme médecine traditionnelle.<br>
+                    Elle s’intéresse à la personne dans sa globalité, dans ses dimensions physique, psychique, émotionnelle, énergétique.<br>
+                    Elle vise à préserver et optimiser votre santé globale, votre qualité de vie en harmonie avec votre environnement.<br>
+                    Par santé, il faut entendre « état de complet bien-être physique, mental et social » et pas seulement une absence de maladie.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header">Enseignement d'Hippocrate
+            <i class="fas fa-chevron-down accordion-arrow"></i>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <strong>La naturopathie</strong>
+              s’inspire des enseignements d’Hippocrate,
+              elle s’attache à remonter à la cause des déséquilibres et à comprendre le fonctionnement de notre corps, au-delà du symptomatique.  
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header">Prévention
+            <i class="fas fa-chevron-down accordion-arrow"></i>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <strong>La naturopathie</strong>
+              est préventive, elle s’appuie sur les capacités d’autoguérison de notre corps.
+              Elle s’intéresse aux spécificités qui nous constituent pour proposer une démarche personnalisée. 
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header">Éducation
+            <i class="fas fa-chevron-down accordion-arrow"></i>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <strong>La naturopathie</strong>
+              est éducatrice de santé : elle vous transmet les clés pour être acteur de votre bien être et vous guider
+              vers l’autonomie : vous devenez responsable de votre capital santé. 
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header">Alimentation
+            <i class="fas fa-chevron-down accordion-arrow"></i>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <strong>La naturopathie</strong> 
+              se base sur l’alimentation, l’hygiène de vie, l’activité physique, l’émotionnel. Ses méthodes de soins sont la phytothérapie, la gemmothérapie, les huiles essentielles, les élixirs floraux,
+              … associées à des techniques corporelles, la réflexologie, les massages bien-être, l’activité physique, les exercices respiratoires, le contact avec la nature...
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header">Bilan de vitalité
+            <i class="fas fa-chevron-down accordion-arrow"></i>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <strong>La première séance, bilan de vitalité :</strong> 
+              nous retraçons ensemble les moments clés de votre histoire de vie : nous abordons vos antécédents,
+              votre état de santé, vos habitudes, votre alimentation, votre état émotionnel,
+              vos attentes.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header">Le suivi
+            <i class="fas fa-chevron-down accordion-arrow"></i>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <strong>Les consultations de suivi :</strong> 
+              je vous accompagne dans votre programme,
+              votre motivation et la transmission de conseils adaptés.  
+            </div>
+          </div>
+        </div>
+
+        <div class="naturopathie-warning">
+          La naturopathie est complémentaire de la médecine conventionnelle et ne dispense pas
+          des soins médicaux conventionnels. Le naturopathe ne pose aucun diagnostic,
+          ne délivre pas de prescription.
+          N’arrêtez ou ne modifiez jamais un traitement en cours sans l’avis de votre médecin traitant.
+        </div>
+      </div>    
+        <h2 class="title" id="accompagnement">Mon accompagnement</h2>  
+        <section class="accompagnement-container">
+          <div class="soins-container">
+            <p class="main-titles">La réflexologie plantaire</p>
+            <div>
+              <img src="pictures/plant.webp" alt="réflexologie plantaire" loading="lazy">
+            </div>
+            <div>
+              <p class="main-title"><em>« Là où se trouvent les pieds, commence le voyage » – Lao Tseu</em> </p><br>
+              <p>La réflexologie plantaire est une technique de massage millénaire qui procure un moment de profonde
+                 relaxation et de mieux-être de la personne. C’est une méthode douce et naturelle adaptée à tous.</p><br>
+               <p>Des pressions sur des zones réflexes du pied agissent sur le corps dans le but de dénouer des tensions, relancer la force vitale, soutenir les capacités d’auto-restauration, améliorer la qualité du sommeil, renforcer la circulation d’énergie.</p><br>
+               <p>La séance commence par un échange verbal afin d’établir votre état de santé et d’écarter d’éventuelles contre-indications.</p><br>
+               <p>Selon vos besoins d’entretien et de prévention et selon votre organisme il est préconisé d’effectuer une séance par mois ou à chaque changement de saison.</p><br>
+               <p>Pour des troubles fonctionnels anciens ou bien installés, il est préconisé de réaliser 3 à 5 séances espacées de 10 jours à 3 semaines.</p><br>
+               <p class="opacity"><strong>Mentions légales:</strong><em> le réflexologue ne pose aucun diagnostic médical, n’intervient dans aucune décision thérapeutique, et ne se substitue en aucun cas à une consultation ou traitement médical.</em></p>
+            </div>
+          </div> 
+          <div class="soins-container">
+            <p class="main-titles">Les fleurs de Bach</p>  
+            <div>
+              <img src="pictures/Feuilles de plante.webp" alt="les fleurs de Bach" loading="lazy">
+            </div>
+            <div>
+              <p class="main-title"><em>Un voyage au cœur de soi</em> </p><br>
+              <p>Les fleurs de Bach sont des élixirs floraux naturels. Le Dr Edouard Bach, médecin anglais, convaincu de l’impact des émotions sur la santé,
+                 élabore 38 élixirs floraux qui nous invitent à reprendre contact avec nos états émotionnels gênants, figés, difficiles, pour les accueillir,
+                  les apprivoiser, et cheminer vers une harmonie intérieure.</p><br>
+               <p><strong>Pour qui&nbsp;?</strong></p><br>
+               <p>Pour tous ceux à la recherche d’un équilibre émotionnel, c’est une méthode douce et naturelle adaptée à tous.</p><br>
+               <p><strong>Pourquoi&nbsp;?</strong></p><br>
+               <p>Pour nous aider à harmoniser nos états émotionnels tels que la peur, les chocs émotionnels, les incertitudes, les doutes, le découragement,
+                 la tristesse, la colère, le manque de confiance, l’impatience…</p>
+            </div>
+          </div> 
+          <div class="soins-container">
+            <p class="main-titles">Le massage relaxant californien</p>
+            <div>
+              <img src="pictures/naturo.webp" alt="le massage relaxant californien" loading="lazy">
+            </div>
+            <div>
+              <p class="main-title"><em>Le massage relaxant allie des gestes doux et fluides à des mouvements amples et fermes sur l’ensemble du corps.
+                 Les bienfaits sont immédiats.</p></em><br>
+              <p>Ce soin vous propose de vous abandonner à une relaxation totale pour faire place à une détente du corps et de l’esprit,
+                 une sensation de bien-être, un apaisement et un soulagement des tensions physiques et émotionnelles du quotidien.</p><br> 
+              <p>Il vous invite à rester attentif à votre corps en même temps que de s’installer dans un profond abandon pour vivre
+                 une parenthèse de douceur et plonger dans une bulle de sérénité.</p><br> 
+              <p>En naturopathie, il agit en prévention et en hygiénisme pour une meilleure vitalité,
+                 un ressourcement, une reconnexion à soi.</p><br> 
+               <p class="opacity"><strong>Mentions légales:</strong><em>  le massage relaxant ne pose aucun diagnostic médical, n’intervient dans aucune décision thérapeutique,
+                 et ne se substitue en aucun cas à une consultation ou traitement médical.</em></p>         
+            </div>
+          </div> 
+          <div class="soins-container">
+            <p class="main-titles">Le drainage lymphatique manuel</p>  
+            <div>
+              <img src="pictures/Zen Sand Stones.webp" alt="zen sand stones" loading="lazy">
+            </div>
+            <div>
+              <p class="main-title"><em>Le drainage lymphatique manuel est une technique de massage</em> </p><br>
+              <p>doux visant à stimuler la circulation de la lymphe et évacuer les toxines de l’organisme.</p><br>
+              <p>La lymphe, chargée de combattre les infections et nettoyer notre organisme, 
+                circule par un réseau de vaisseaux et ganglions dans tout notre corps.</p><br>
+              <p><strong>Comment se pratique le drainage ?</strong></p><br>
+              <p>Une combinaison de mouvements lents et rythmés effectués avec les doigts et la paume
+                 de la main se font sur l’ensemble du corps. C’est un réel moment de détente et relaxation.</p><br>
+              <p><strong>Les bienfaits </strong></p><br>
+              <p>Stimulation de la circulation lymphatique, amélioration du système digestif, renforcement du système immunitaire,
+                 soulagement des jambes lourdes, diminution des douleurs chroniques.</p><br> 
+              <p>Il peut être réalisé sous forme de cure ou à chaque changement de saison.</p><br>
+              <p class="opacity"><strong>Mentions légales:</strong><em> le drainage lymphatique ne pose aucun diagnostic médical,
+                 n’intervient dans aucune décision thérapeutique, et ne se substitue en aucun cas à une consultation ou traitement médical.</em></p>                               
+            </div>
+          </div>                               
+        </section>
+      <section class="service-container" id="tarifs"> 
+        <h2 class="title">Prestations/Tarifs</h2>
+        <div class="service-section">
+          <div class="service fade-in">
+            <div class="service__description">
+              <h3>Réflexologie plantaire</h3>
+              <p>
+              Séance 1h - 60 € <br>
+              Séance 45 mn – 45 € <br>
+              Forfait 3 séances de 1h – 165 €               
+              </p>
+            </div>
+          </div>          
+          <div class="service fade-in">
+            <div class="service__description">
+              <h3>Massage relaxant californien</h3>
+              <p>
+                Massage 1h – 70 €
+              </p>
+            </div>
+          </div>
+          <div class="service fade-in">
+            <div class="service__description">
+              <h3>Drainage lymphatique manuel</h3>
+              <p>
+                Drainage 1h10 – 80 €
+              </p>
+            </div>
+          </div>
+          <div class="service fade-in">
+            <div class="service__description">
+              <h3>Fleurs de Bach</h3>
+              <p>
+                Séance 1h - 55 € <br>
+                Au cabinet ou en viso
+              </p>
+            </div>
+          </div>
+          <div class="service fade-in">
+            <div class="service__description">
+              <h3>Naturopathie</h3>
+              <p>
+              Bilan de vitalité (première séance) : 1h30 - 75€<br>
+              Séance de suivi : 1h – 60€<br>
+              Forfait 3 séances (bilan de vitalité + 2 séances de suivi) - 175 €<br>
+              Au cabinet ou en viso
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>     
+      <!-- <section id="contact">
+        <h2>Contact</h2>
+        <p>Vous avez une question ? Discutons-en !</p>
+        <form id="form-contact" action="#">
+          <label for="name">Nom</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="100 caractères minimum"
+          >
+        </textarea>
+          <input type="submit" value="Envoyer" />
+          <div class="msg"></div>
+        </form>
+      </section> -->
+
+
+    </Main>
+
+    <div>
+      <button id="scrollToTop" title="Haut de page">↑</button>
+    </div>
+    <footer class="footer-container">
+      <div class="social-footer" id="contact">
+        <img src="pictures/benelogo.png" alt="logo" loading="lazy" class="benelogo">
+      </div>
+      <div class="contact-footer">
+        <h2>Contact</h2>
+        <p>
+          <i class="fa-solid fa-square-phone"></i
+          ><span class="span-contact"><a href="tel:0428294344" class="phone-link">+33 06 09 89 45 10</a></span>
+        </p>
+        <p>
+          <i class="fa-solid fa-location-dot"></i
+          ><span class="span-contact"
+            >50 Passage des Cèdres, 38121 Chonas-l'Amballan</span
+          >
+        </p> 
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:benedicte.manin.naturo@gmail.com?subject=Demande de renseignements&body=Bonjour%20je%20souhaite..." class="email-link">
+          <span class="span-contact">benedicte.manin.naturo@gmail.com</span>
+        </a>
+        </p>
+        <p class="copyright">
+        &copy; <span id="year"></span> Tous droits réservés.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
