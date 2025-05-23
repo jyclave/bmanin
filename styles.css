@@ -46,6 +46,20 @@ nav ul li a:hover {
   border-radius: 20px;
   border-width: 3px;
 }
+/* Burger */
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.burger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  transition: 0.3s;
+}
 #header {
   background: transparent;
 }
@@ -316,63 +330,7 @@ nav ul li a:hover {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.75);
 }
-#contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-} 
-#contact h2{
-  margin-bottom: 20px;
-  color: #a34108;
-}
-#form-contact {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  width: 100%;
-} 
-#contact input {
-  height: 50px;
-  font-size: 1.2em;
-  border: none;
-  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
-}
-#contact label {
-  margin: 2em 0 1em 0;
-}
-#contact textarea {
-  border: none;
-  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
-} 
-input[type="submit"]{
-  font-family: 'Syne';
-  font-weight: 700;
-  color: white;
-  margin : 2em auto ;
-  width: 180px;
-  text-align: center;
-  border-radius: 60px ;
-  cursor: pointer;
-  background-color:#a34108;
-}
-input[type="submit"]:hover {
-  color: white;
-  background-color: teal;
-}
-#message {
-  font-size: 22px;
-}
-.error {
-  color: red;
-  font-size: 24px;
-  margin-top: 10px;
-}
-.succes {
-  color:#2c3e50;
-  font-size: 24px;
-  margin-top: 10px;
-}
+
 .footer-container {
   display: flex;
   flex-direction: row;
@@ -402,16 +360,7 @@ input[type="submit"]:hover {
   padding-top: 10px;
   font-size: 12px;
 }
-.fa-brands, .fa-solid {
-  font-size: 24px; /* Taille de base des icônes */
-  margin: 0 8px;
-}
-.fa-facebook, .fa-instagram {
-  font-size: 28px; /* Icônes sociales légèrement plus grandes */
-  transition: color 0.3s ease;
-  padding-top: 10px;
-  cursor: pointer;
-}
+
 .contact-footer h2 {
   color:#a34108;
   padding-bottom: 10px;
@@ -420,12 +369,6 @@ input[type="submit"]:hover {
   margin-left: 15px;
   font-size: 21px;
   align-items: middle;
-}
-.fa-brands:hover {
-  color: #4267B2; /* Couleur Facebook au survol */
-}
-.fa-instagram:hover {
-  color: #E1306C; /* Couleur Instagram au survol */
 }
 
 #scrollToTop {
@@ -455,6 +398,14 @@ input[type="submit"]:hover {
 
 /* Responsive */
 @media (max-width: 768px) {
+
+  #apropos,
+  #naturopathie,
+  #accompagnement,
+  #tarifs,
+  #contact {
+    scroll-margin-top: 160px; /* ou adapte selon la hauteur de ton header */
+  }  
   .apropos-container {
     flex-direction: column;
     align-items: center;
@@ -473,4 +424,34 @@ input[type="submit"]:hover {
     max-width: 80%;
     margin-top: 20px;
   }
+  #nav-links {
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 30px 0;
+
+    /* Grille 2x2 */
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  #nav-links.active {
+    display: grid;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
 }

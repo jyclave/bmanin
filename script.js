@@ -11,6 +11,13 @@ function nextSlide() {
   delete activeSlide.dataset.active;
 }
 
+  const burger = document.getElementById('burger');
+  const nav = document.querySelector('nav ul');
+
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+
 // Démarrer le défilement automatique
 let slideInterval = setInterval(nextSlide, 3000); // Change toutes les 3 secondes
 
